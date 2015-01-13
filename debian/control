@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-controller-manager
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-diagnostic-msgs, ros-indigo-pluginlib, ros-indigo-pr2-controller-interface, ros-indigo-pr2-description, ros-indigo-pr2-hardware-interface, ros-indigo-pr2-mechanism-diagnostics, ros-indigo-pr2-mechanism-model, ros-indigo-pr2-mechanism-msgs, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-rostest, ros-indigo-sensor-msgs
+Homepage: http://ros.org/pr2_controller_manager
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-controller-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-msgs, ros-indigo-pluginlib, ros-indigo-pr2-controller-interface, ros-indigo-pr2-description, ros-indigo-pr2-hardware-interface, ros-indigo-pr2-mechanism-diagnostics, ros-indigo-pr2-mechanism-model, ros-indigo-pr2-mechanism-msgs, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-rosparam, ros-indigo-rospy, ros-indigo-sensor-msgs
+Description: The controller manager (CM) package provides the infrastructure to run controllers in a hard realtime loop.
