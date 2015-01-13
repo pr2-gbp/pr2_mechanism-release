@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-mechanism-model
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), liburdfdom-dev, ros-indigo-angles, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-hardware-interface, ros-indigo-kdl-parser, ros-indigo-pluginlib, ros-indigo-pr2-hardware-interface, ros-indigo-roscpp, ros-indigo-rostest, ros-indigo-rosunit, ros-indigo-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_model
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-mechanism-model
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liburdfdom-dev, ros-indigo-angles, ros-indigo-hardware-interface, ros-indigo-kdl-parser, ros-indigo-pluginlib, ros-indigo-pr2-hardware-interface, ros-indigo-roscpp, ros-indigo-urdf
+Description: This package contains the robot model that is used by the realtime controllers inside controller manager. This robot model focuses on controlling the robot mechanism in a realtime control loop, and therefore it only contains the components of a robot that are relevant in realtime: the robot joints (with encoders, transmisisons and actuators) and the kinematic/dynamic model of the robot. The pr2_mechanism_model package is well tested and is released with a stable API.
