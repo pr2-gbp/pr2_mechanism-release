@@ -1,3 +1,30 @@
+## pr2_mechanism (indigo) - 1.8.16-0
+
+The packages in the `pr2_mechanism` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo pr2_mechanism --edit` on `Tue, 13 Jan 2015 16:55:43 -0000`
+
+These packages were released:
+- `pr2_controller_interface`
+- `pr2_controller_manager`
+- `pr2_hardware_interface`
+- `pr2_mechanism`
+- `pr2_mechanism_diagnostics`
+- `pr2_mechanism_model`
+
+Version of package(s) in repository `pr2_mechanism`:
+- upstream repository: https://github.com/pr2/pr2_mechanism.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.16-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 pr2_mechanism-release
 =====================
 
