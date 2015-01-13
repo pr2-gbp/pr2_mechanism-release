@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-mechanism-diagnostics
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-angles, ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-pr2-mechanism-model, ros-indigo-pr2-mechanism-msgs, ros-indigo-roscpp, ros-indigo-rostest, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-diagnostic-msgs, ros-indigo-diagnostic-updater, ros-indigo-pr2-mechanism-model, ros-indigo-pr2-mechanism-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
