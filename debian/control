@@ -1,0 +1,12 @@
+Source: ros-jade-pr2-mechanism-diagnostics
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-angles, ros-jade-catkin, ros-jade-diagnostic-msgs, ros-jade-diagnostic-updater, ros-jade-pr2-mechanism-model, ros-jade-pr2-mechanism-msgs, ros-jade-roscpp, ros-jade-rostest, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-angles, ros-jade-diagnostic-msgs, ros-jade-diagnostic-updater, ros-jade-pr2-mechanism-model, ros-jade-pr2-mechanism-msgs, ros-jade-roscpp, ros-jade-rospy, ros-jade-std-msgs, ros-jade-std-srvs, ros-jade-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
