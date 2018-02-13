@@ -1,0 +1,28 @@
+ros-kinetic-pr2-controller-interface (1.8.17-0xenial) xenial; urgency=high
+
+  * Merge pull request #332 <https://github.com/pr2/pr2_mechanism/issues/332> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * change maintainer to ROS orphaned package maintainer
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Feb 2018 15:00:00 -0000
+
+ros-kinetic-pr2-controller-interface (1.8.15-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-kinetic-pr2-controller-interface (1.8.14-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-kinetic-pr2-controller-interface (1.8.13-0xenial) xenial; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 15 Dec 2014 15:00:00 -0000
+
+
