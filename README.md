@@ -1,3 +1,32 @@
+## pr2_mechanism (kinetic) - 1.8.17-0
+
+The packages in the `pr2_mechanism` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_mechanism --rosdistro kinetic --track kinetic` on `Tue, 13 Feb 2018 14:54:03 -0000`
+
+These packages were released:
+- `pr2_controller_interface`
+- `pr2_controller_manager`
+- `pr2_hardware_interface`
+- `pr2_mechanism`
+- `pr2_mechanism_diagnostics`
+- `pr2_mechanism_model`
+
+Version of package(s) in repository `pr2_mechanism`:
+
+- upstream repository: https://github.com/pr2/pr2_mechanism.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.8.16-0`
+- new version: `1.8.17-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.2`
+- catkin_pkg version: `0.3.6`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## pr2_mechanism (kinetic) - 1.8.16-0
 
 The packages in the `pr2_mechanism` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_mechanism --rosdistro kinetic --track kinetic` on `Tue, 13 Feb 2018 14:37:08 -0000`
