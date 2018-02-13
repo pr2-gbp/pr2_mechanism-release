@@ -1,0 +1,32 @@
+ros-kinetic-pr2-mechanism-diagnostics (1.8.17-0jessie) jessie; urgency=high
+
+  * Merge pull request #334 <https://github.com/pr2/pr2_mechanism/issues/334> from k-okada/fix_cmake_warning
+    Fix cmake warning
+  * Merge pull request #332 <https://github.com/pr2/pr2_mechanism/issues/332> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * target pr2_mechanism_diagnostics is not exists
+  * change maintainer to ROS orphaned package maintainer
+  * Added dependency on pr2_mechanism_msgs
+  * Contributors: Kei Okada, dash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Feb 2018 15:00:00 -0000
+
+ros-kinetic-pr2-mechanism-diagnostics (1.8.15-0jessie) jessie; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-kinetic-pr2-mechanism-diagnostics (1.8.14-0jessie) jessie; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-kinetic-pr2-mechanism-diagnostics (1.8.13-0jessie) jessie; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 15 Dec 2014 15:00:00 -0000
+
+

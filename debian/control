@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-mechanism-diagnostics
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-roscpp, ros-kinetic-rostest, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-angles, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
