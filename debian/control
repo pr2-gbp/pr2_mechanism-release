@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-controller-manager
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-diagnostic-msgs, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-description, ros-kinetic-pr2-hardware-interface, ros-kinetic-pr2-mechanism-diagnostics, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-rostest, ros-kinetic-sensor-msgs
+Homepage: http://ros.org/pr2_controller_manager
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-controller-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-diagnostic-msgs, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-description, ros-kinetic-pr2-hardware-interface, ros-kinetic-pr2-mechanism-diagnostics, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-rosparam, ros-kinetic-rospy, ros-kinetic-sensor-msgs
+Description: The controller manager (CM) package provides the infrastructure to run controllers in a hard realtime loop.
