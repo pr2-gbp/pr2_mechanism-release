@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-mechanism
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/pr2_mechanism
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-mechanism
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-hardware-interface, ros-kinetic-pr2-mechanism-diagnostics, ros-kinetic-pr2-mechanism-model
+Description: The pr2_mechanism stack contains the infrastructure to control the PR2 robot in a hard realtime control loop.
