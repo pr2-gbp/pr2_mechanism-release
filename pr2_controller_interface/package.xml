@@ -1,6 +1,6 @@
 <package>
   <name>pr2_controller_interface</name>
-  <version>1.8.16</version>
+  <version>1.8.17</version>
   <description>
    This package specifies the interface to a realtime controller. A
    controller that implements this interface can be executed by the
@@ -9,7 +9,7 @@
   contains the C++ controller base class that all controllers need to
   inherit from.
   </description>
-  <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
   <license>BSD</license>
 
