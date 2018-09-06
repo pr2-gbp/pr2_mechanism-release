@@ -1,0 +1,32 @@
+ros-lunar-pr2-mechanism-diagnostics (1.8.17-0stretch) stretch; urgency=high
+
+  * Merge pull request #334 <https://github.com/pr2/pr2_mechanism/issues/334> from k-okada/fix_cmake_warning
+    Fix cmake warning
+  * Merge pull request #332 <https://github.com/pr2/pr2_mechanism/issues/332> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * target pr2_mechanism_diagnostics is not exists
+  * change maintainer to ROS orphaned package maintainer
+  * Added dependency on pr2_mechanism_msgs
+  * Contributors: Kei Okada, dash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Feb 2018 00:00:00 -0000
+
+ros-lunar-pr2-mechanism-diagnostics (1.8.15-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-lunar-pr2-mechanism-diagnostics (1.8.14-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-lunar-pr2-mechanism-diagnostics (1.8.13-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 16 Dec 2014 00:00:00 -0000
+
+
