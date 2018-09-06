@@ -1,0 +1,12 @@
+Source: ros-lunar-pr2-mechanism-diagnostics
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-angles, ros-lunar-catkin, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-pr2-mechanism-model, ros-lunar-pr2-mechanism-msgs, ros-lunar-roscpp, ros-lunar-rostest, ros-lunar-std-msgs, ros-lunar-std-srvs, ros-lunar-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-angles, ros-lunar-diagnostic-msgs, ros-lunar-diagnostic-updater, ros-lunar-pr2-mechanism-model, ros-lunar-pr2-mechanism-msgs, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-std-msgs, ros-lunar-std-srvs, ros-lunar-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
