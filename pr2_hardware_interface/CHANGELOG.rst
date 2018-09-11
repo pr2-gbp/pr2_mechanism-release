@@ -2,6 +2,9 @@
 Changelog for package pr2_hardware_interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.18 (2018-09-11)
+-------------------
+
 1.8.17 (2018-02-13)
 -------------------
 * Merge pull request `#332 <https://github.com/pr2/pr2_mechanism/issues/332>`_ from k-okada/maintain
