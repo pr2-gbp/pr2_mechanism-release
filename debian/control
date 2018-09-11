@@ -1,0 +1,13 @@
+Source: ros-melodic-pr2-mechanism-model
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), liburdfdom-dev, ros-melodic-angles, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-hardware-interface (>= 0.13.0), ros-melodic-kdl-parser, ros-melodic-pluginlib, ros-melodic-pr2-hardware-interface, ros-melodic-roscpp, ros-melodic-rostest, ros-melodic-rosunit, ros-melodic-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_model
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-mechanism-model
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liburdfdom-dev, ros-melodic-angles, ros-melodic-hardware-interface, ros-melodic-kdl-parser, ros-melodic-pluginlib, ros-melodic-pr2-hardware-interface, ros-melodic-roscpp, ros-melodic-urdf
+Description: This package contains the robot model that is used by the realtime controllers inside controller manager.
+ This robot model focuses on controlling the robot mechanism in a realtime control loop, and therefore it only contains the components of a robot that are relevant in realtime: the robot joints (with encoders, transmisisons and actuators) and the kinematic/dynamic model of the robot. The pr2_mechanism_model package is well tested and is released with a stable API.
