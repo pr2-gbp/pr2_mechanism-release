@@ -1,0 +1,13 @@
+Source: ros-melodic-pr2-controller-interface
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-controller-interface, ros-melodic-pr2-mechanism-model, ros-melodic-roscpp
+Homepage: http://ros.org/wiki/pr2_controller_interface
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-controller-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-controller-interface, ros-melodic-pr2-mechanism-model, ros-melodic-roscpp
+Description: This package specifies the interface to a realtime controller.
+ A controller that implements this interface can be executed by the controller manager in the real time control loop. The package basically contains the C++ controller base class that all controllers need to inherit from.
