@@ -1,3 +1,32 @@
+## pr2_mechanism (lunar) - 1.8.18-0
+
+The packages in the `pr2_mechanism` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --edit -y pr2_mechanism --rosdistro lunar --track lunar` on `Tue, 11 Sep 2018 07:24:29 -0000`
+
+These packages were released:
+- `pr2_controller_interface`
+- `pr2_controller_manager`
+- `pr2_hardware_interface`
+- `pr2_mechanism`
+- `pr2_mechanism_diagnostics`
+- `pr2_mechanism_model`
+
+Version of package(s) in repository `pr2_mechanism`:
+
+- upstream repository: https://github.com/pr2/pr2_mechanism.git
+- release repository: https://github.com/pr2-gbp/pr2_mechanism-release.git
+- rosdistro version: `1.8.17-0`
+- old version: `1.8.17-0`
+- new version: `1.8.18-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## pr2_mechanism (melodic) - 1.8.18-0
 
 The packages in the `pr2_mechanism` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -y pr2_mechanism --rosdistro melodic --track melodic` on `Tue, 11 Sep 2018 07:18:49 -0000`
