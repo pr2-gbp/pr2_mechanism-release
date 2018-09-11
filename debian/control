@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-mechanism
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/pr2_mechanism
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-mechanism
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-pr2-controller-interface, ros-melodic-pr2-controller-manager, ros-melodic-pr2-hardware-interface, ros-melodic-pr2-mechanism-diagnostics, ros-melodic-pr2-mechanism-model
+Description: The pr2_mechanism stack contains the infrastructure to control the PR2 robot in a hard realtime control loop.
