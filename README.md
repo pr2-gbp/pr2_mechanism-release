@@ -1,3 +1,32 @@
+## pr2_mechanism (noetic) - 1.8.18-1
+
+The packages in the `pr2_mechanism` repository were released into the `noetic` distro by running `/usr/bin/bloom-release pr2_mechanism --rosdistro noetic --track noetic` on `Wed, 02 Dec 2020 10:51:06 -0000`
+
+These packages were released:
+- `pr2_controller_interface`
+- `pr2_controller_manager`
+- `pr2_hardware_interface`
+- `pr2_mechanism`
+- `pr2_mechanism_diagnostics`
+- `pr2_mechanism_model`
+
+Version of package(s) in repository `pr2_mechanism`:
+
+- upstream repository: https://github.com/pr2/pr2_mechanism.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.18-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pr2_mechanism (lunar) - 1.8.18-0
 
 The packages in the `pr2_mechanism` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --edit -y pr2_mechanism --rosdistro lunar --track lunar` on `Tue, 11 Sep 2018 07:24:29 -0000`
