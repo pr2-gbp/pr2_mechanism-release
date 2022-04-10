@@ -1,0 +1,40 @@
+ros-noetic-pr2-controller-interface (1.8.19-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 09 Apr 2022 15:00:00 -0000
+
+ros-noetic-pr2-controller-interface (1.8.18-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 10 Sep 2018 15:00:00 -0000
+
+ros-noetic-pr2-controller-interface (1.8.17-1focal) focal; urgency=high
+
+  * Merge pull request #332 <https://github.com/pr2/pr2_mechanism/issues/332> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * change maintainer to ROS orphaned package maintainer
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Feb 2018 15:00:00 -0000
+
+ros-noetic-pr2-controller-interface (1.8.15-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-noetic-pr2-controller-interface (1.8.14-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-noetic-pr2-controller-interface (1.8.13-1focal) focal; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 15 Dec 2014 15:00:00 -0000
+
+
