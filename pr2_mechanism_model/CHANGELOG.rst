@@ -2,6 +2,9 @@
 Changelog for package pr2_mechanism_model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.19 (2022-04-10)
+-------------------
+
 1.8.18 (2018-09-11)
 -------------------
 * Merge pull request `#338 <https://github.com/pr2/pr2_mechanism/issues/338>`_ from k-okada/add_travis
