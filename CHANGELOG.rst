@@ -2,6 +2,20 @@
 Changelog for package pr2_controller_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.8.20 (2022-04-11)
+-------------------
+* add missing package (robot_state_publisher) to package.xml (`#339 <https://github.com/PR2/pr2_mechanism//issues/339>`_)
+* Contributors: Kei Okada
+
+1.8.19 (2022-04-10)
+-------------------
+* add noetic to .travis.yml, remove indigo/lunar (`#342 <https://github.com/PR2/pr2_mechanism/issues/342>`_)
+  use '2to3-2.7 -w -fprint -fraise -fexcept -fdict .' to fix python2 to python3
+* Added missing dependencies for catkin_EXPORTED_TARGETS (`#341 <https://github.com/PR2/pr2_mechanism/issues/341>`_)
+  This fixes race conditions when compiling from scratch.
+  Co-authored-by: Lasse Einig <einig@informatik.uni-hamburg.de>
+* Contributors: Kei Okada, Michael Görner
+
 1.8.18 (2018-09-11)
 -------------------
 
