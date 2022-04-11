@@ -1,0 +1,60 @@
+ros-melodic-pr2-mechanism-model (1.8.20-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sun, 10 Apr 2022 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.19-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Sat, 09 Apr 2022 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.18-1bionic) bionic; urgency=high
+
+  * Merge pull request #338 <https://github.com/pr2/pr2_mechanism/issues/338> from k-okada/add_travis
+    update travis.yml
+  * fix urdf::JointConstSharedPtr for test directory
+  * fix for urdfmodel >= 1.0.0 (melodic)
+  * to pass catkin run_tests, partially copied from https://github.com/PR2/pr2_mechanism/pull/329
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 10 Sep 2018 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.17-1bionic) bionic; urgency=high
+
+  * Merge pull request #336 <https://github.com/pr2/pr2_mechanism/issues/336> from k-okada/hardware_interface_0.13.0
+    set hardware_interface >= 0.13.0
+  * set hardware_interface >= 0.13.0
+    https://github.com/ros-controls/ros_control/pull/285 (which is included in hardware_interface 0.13.0) allow us to use class hardware_interface::HardwareResourceManager API
+  * Merge pull request #335 <https://github.com/pr2/pr2_mechanism/issues/335> from k-okada/fix_cmake
+    fix compile warning
+  * fix compile warning
+  * Merge pull request #332 <https://github.com/pr2/pr2_mechanism/issues/332> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * change maintainer to ROS orphaned package maintainer
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Feb 2018 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.15-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.14-1bionic) bionic; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 12 Jan 2015 15:00:00 -0000
+
+ros-melodic-pr2-mechanism-model (1.8.13-1bionic) bionic; urgency=high
+
+  * Updated to use cmake_modules
+  * Updated to use cmake_modules
+  * Contributors: Jack Thompson
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 15 Dec 2014 15:00:00 -0000
+
+
