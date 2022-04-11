@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-controller-manager
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-diagnostic-msgs, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-description, ros-noetic-pr2-hardware-interface, ros-noetic-pr2-mechanism-diagnostics, ros-noetic-pr2-mechanism-model, ros-noetic-pr2-mechanism-msgs, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-roslaunch, ros-noetic-rostest, ros-noetic-sensor-msgs
+Homepage: http://ros.org/pr2_controller_manager
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-controller-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-msgs, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-description, ros-noetic-pr2-hardware-interface, ros-noetic-pr2-mechanism-diagnostics, ros-noetic-pr2-mechanism-model, ros-noetic-pr2-mechanism-msgs, ros-noetic-realtime-tools, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-rosparam, ros-noetic-rospy, ros-noetic-sensor-msgs
+Description: The controller manager (CM) package provides the infrastructure to run controllers in a hard realtime loop.
