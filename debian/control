@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-mechanism-diagnostics
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-angles, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-pr2-mechanism-model, ros-melodic-pr2-mechanism-msgs, ros-melodic-roscpp, ros-melodic-rostest, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-urdf
+Homepage: http://ros.org/wiki/pr2_mechanism_diagnostics
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-mechanism-diagnostics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-angles, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-pr2-mechanism-model, ros-melodic-pr2-mechanism-msgs, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-urdf
+Description: The `pr2_mechanism_diagnostics` node subscribes to `mechanism_statistics` and publishes diagnostics data for joints and controllers on `/diagnostics`.
